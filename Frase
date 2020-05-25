@@ -1,0 +1,11 @@
+//Ingresar e imprimir una frase
+import java.util.*;
+public class Segundo{
+	public final static void main(String[] args){
+		String frase;
+		System.out.print("Escribir mensaje: ");
+		Scanner ingreso=new Scanner(System.in);
+		frase=ingreso.nextLine();
+		System.out.println("La frase es: "+ frase);
+	}
+}
